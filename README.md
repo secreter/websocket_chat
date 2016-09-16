@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # chat
 
 > online chat for redream 
@@ -25,3 +26,7 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# websocket_chat
+基于vue的websocket聊天室
+>>>>>>> 0aaf0576baca450e2b76205ed74ffcfeb70cf57d
