@@ -1,7 +1,7 @@
 <template>
 	<div class="sys-wrap">
 		<div class="sys-msg">
-			{{msg}}
+			{{msg}} 加入群聊
 		</div>
 	</div>
 </template>
@@ -9,7 +9,6 @@
 	export default {
 		data(){
 			return {
-				msg:''
 			}
 		},
 		props:['msg']
@@ -28,8 +27,10 @@
 			align-items: center;
 			background-color: rgba(0,0,0,0.05);
 			border-radius: 10px;
-			width: 60%;
+			min-width: 40%;
 			color: #999;
+			font-size: 12px;
+			padding: 3px;
 		}
 
 	}

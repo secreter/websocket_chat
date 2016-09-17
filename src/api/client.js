@@ -101,7 +101,7 @@ const CHAT={
 		},10000)
 		//监听新用户登录
 		this.socket.on('login', function(obj){
-			console.log(obj)
+			CHAT.updateSysMsg(obj, 'logout');
 			CHAT.msgArr.push(obj)	
 		});
 		

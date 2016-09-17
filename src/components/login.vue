@@ -101,6 +101,7 @@ export default {
       /*background-color: #eee;*/
       display: flex;
       height: 40px;
+      justify-content: center;
       align-items: center;
       font-size: 16px;
       color: #999;
