@@ -28,13 +28,13 @@
 
 ### 4.运行代码
 * install dependencies
-npm install
+> npm install
 
 * serve with hot reload at localhost:8080
-npm run dev
+> npm run dev
 
 * build for production with minification
-npm run build
+> npm run build
 
 这是在我站点上跑着的[例子](http://item.redream.cn/chat/),大家可以看一看，在手机上效果更加，最近校招比较忙，就花了两天，没考虑兼容，欢迎大家提出意见。
 
