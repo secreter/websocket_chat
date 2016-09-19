@@ -25,7 +25,9 @@
 			<span class="-modify" @click="show()">修改</span>
 		</div>
 		<div class="-notice">
-			点击头像可获取成员微信号。关注公众号<a href="http://mp.weixin.qq.com/s?__biz=MzAwMjAzNDU1NQ==&mid=401448725&idx=1&sn=2247d58a5c75e237b0d5f9f14ff42e56#rd">redream</a>回复“聊天”进入。@<a href="https://github.com/secreter/websocket_chat">github</a>
+			<span>
+				点击头像可获取成员微信号。关注公众号<a href="http://mp.weixin.qq.com/s?__biz=MzAwMjAzNDU1NQ==&mid=401448725&idx=1&sn=2247d58a5c75e237b0d5f9f14ff42e56#rd">redream</a>回复“聊天”进入。@<a href="https://github.com/secreter/websocket_chat">github</a>
+			</span>
 		</div>
 	</div>
 	<div class="-bar"></div>
@@ -224,6 +226,12 @@ export default{
 					padding: 0 20px;
 					color: #fff;
 				}
+
+			}
+			.-notice{
+				display: flex;
+				flex-direction: column;
+				height: 60px;
 			}
 		}
 		.-del{
