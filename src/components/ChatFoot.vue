@@ -1,7 +1,7 @@
 <template>
   <div class="foot-wrapper">
-    <input class="chat-input" type="text" name="" v-model="msg">
-    <span class="chat-sub" :class="{'primary':!!msg}" @click="send(msg)">发送</span>
+    <input class="chat-input" type="text" name="" @keyup.enter="send(msg)" v-model="msg">
+    <span class="chat-sub" :class="{'primary':!!msg}"  @click="send(msg)">发送</span>
   </div>
 </template>
 
